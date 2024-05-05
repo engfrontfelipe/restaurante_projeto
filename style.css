@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar{
+    background-color: #5159ca;
+
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #474eaf;
+}
+
+#cabecalho .nav .nav-link,
+#cabecalho .navbar-brand,
+.nav-cardapio .nav-link.active:hover{
+    color: #fff;
+
+}
+
+header>.navbar-toggler{
+    background-color: #ffeae6;
+
+}
+
+.section-title{
+    font-family: "Pacifico", cursive;
+
+}
+
+.section-title span{
+    color: #5159ca;
+
+} 
+
+#sobre-o-restaurante,
+#cardapio{
+    background-color: #ede6ff;
+
+}
+
+.text-colored{
+    color: #5159ca;
+
+}
+
+.nav-cardapio .nav-link.active, #fale-conosco button{
+    background-color: #5159ca;
+    color: #fff;
+
+}
+
+.nav-cardapio .nav-link:hover{
+    color: #5159ca;
+
+}
+.social-links li{
+    list-style: none;
+    display: inline;
+
+}
+
+.social-links li a {
+    text-decoration: none;
+
+}
+
+#fale-conosco textarea{
+    resize: none;
+
+}
+
+@media (max-width: 767px){
+    .carousel-item img{
+        height: 280px;
+
+    }
+
+}
